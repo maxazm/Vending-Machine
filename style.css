@@ -1,0 +1,100 @@
+    .mainbox {
+    width: auto;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    margin-top: 3.5rem;
+}
+
+.left-contents {
+    width: 60%;
+    min-height: 500px;
+}
+
+.img-box{
+    min-width: 30%;
+    height: 80%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.d-none{
+    display: none !important;
+}
+
+.img-size{
+    margin-top: 1rem;
+    min-height: 10rem;
+    width: 70%;
+}
+
+.right-contents{
+    width: 35%;
+    min-height: auto;
+}
+
+.box{
+    margin-top: 1rem;
+    min-height: 10rem;
+    width: 70%;
+}
+
+.item-name-display .box {
+    margin: 1rem;
+    width: 8.4rem;
+    height: 8.4rem;
+}
+
+.bg-lightgrey {
+    background-color: grey;
+}
+
+.bg-slategray{
+    background-color: darkslategray;
+}
+
+.btn {
+    margin-top: 1.2rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.item-btn{
+    margin-bottom: 4rem;
+}
+
+.item-btn button {
+    background-color: darkcyan;
+    margin: 1rem;
+    height: 4.3rem;
+    width: 4.3rem;
+}
+
+.btn-font{
+    color: azure;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item-name-display .btn-font{
+    font-size: 40px;
+    padding-top: 1.2rem;
+}
+
+.deplete-animation{
+    animation: deplete 1s linear forwards;
+}
+
+.expand-animation{
+    animation: deplete 1s linear reverse forwards;
+}
+
+@keyframes    deplete {
+    0%{
+        width: 100%;
+        opacity: 1;
+    }
+    100%{
+        width: 0%;
+        opacity: 0;
+    } 
+}
